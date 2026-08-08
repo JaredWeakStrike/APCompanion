@@ -162,6 +162,20 @@ assets:
     source:
     - name: msg/eh.yml
       language: en
+- name: msg/us/dc.bar
+  multi:
+  - name: msg/fr/dc.bar
+  - name: msg/gr/dc.bar
+  - name: msg/it/dc.bar
+  - name: msg/sp/dc.bar
+  method: binarc
+  source:
+  - name: dc
+    type: list
+    method: kh2msg
+    source:
+    - name: msg/dc.yml
+      language: en
 #AS/Data switch
 - method: binarc
   multi:
